@@ -21,5 +21,23 @@ class UserSeeder extends Seeder
             'address' => '133 Bells Lane',
             'password' => '123456',
         ]);
+
+        User::create([
+            'first_name' => 'Rose',
+            'last_name' => 'Water',
+            'email' => 'rosew@gmail.com',
+            'phone_number' => '077737300',
+            'address' => '12 Jingle bells',
+            'password' => '123456',
+        ]);
+
+        User::create([
+            'first_name' => 'Joke',
+            'last_name' => 'Silva',
+            'email' => 'jokes@gmail.com',
+            'phone_number' => '0799994829',
+            'address' => '135 Bells Lane',
+            'password' => '123456',
+        ]);
     }
 }
